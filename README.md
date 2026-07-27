@@ -33,8 +33,8 @@ bukan pada satu sinyal yang kelihatan meyakinkan**.
 1. Daftar gratis di https://twelvedata.com/pricing (free tier: 800 request/hari)
 2. Ambil API key dari dashboard mereka
 
-### 3. Anthropic API (LLM analis)
-1. Buat API key di https://console.anthropic.com/settings/keys
+### 3. OpenCode Zen (LLM analis)
+1. Buat API key di dashboard workspace kamu: https://opencode.ai/workspace/wrk_01KYGG4THN8WNMDZ2C3CS8JES0
 
 ### 4. GitHub
 ```bash
@@ -49,7 +49,7 @@ git push -u origin main
 1. Buka https://vercel.com, klik **New Project**, import repo GitHub kamu
 2. Di **Environment Variables**, isi semua yang ada di `.env.example`:
    - `TWELVE_DATA_API_KEY`
-   - `ANTHROPIC_API_KEY`
+   - `OPENCODE_API_KEY`
    - `SUPABASE_URL`
    - `SUPABASE_SERVICE_ROLE_KEY`
    - `CRON_SECRET` (isi string acak apa saja, mis. hasil dari `openssl rand -hex 16`)
