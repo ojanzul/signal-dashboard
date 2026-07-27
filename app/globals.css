@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0B0E11;
+}
+
+/* candlestick-style confidence meter -- signature elemen dashboard ini */
+.candle-meter {
+  position: relative;
+  width: 10px;
+  border-radius: 2px;
+}
+.candle-meter .wick {
+  position: absolute;
+  left: 50%;
+  top: -6px;
+  bottom: -6px;
+  width: 1px;
+  transform: translateX(-50%);
+  opacity: 0.6;
+}
