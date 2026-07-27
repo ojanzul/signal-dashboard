@@ -2,7 +2,7 @@
 
 Dashboard yang menghasilkan sinyal BUY/SELL/HOLD memakai LLM sebagai "analis"
 yang membaca price action + indikator teknikal. **Status: eksperimental,
-belum tervalidasi** — lihat bagian "Kejujuran" di bawah sebelum pakai.
+belum tervalidasi** — lihat bagian "Kejujuran" di bawah sebelum pakai
 
 ## Stack
 
